@@ -1,7 +1,6 @@
 import numpy as np
 
 
-# 2.1
 def create_sin_values(a, b):
     try:
         if a > b:
@@ -13,7 +12,6 @@ def create_sin_values(a, b):
         print('incorrect values')
 
 
-# 2.2
 def create_arctan_values(a, b):
     try:
         if a > b:
@@ -25,7 +23,6 @@ def create_arctan_values(a, b):
         print('incorrect values')
 
 
-# 2.3
 def create_exp_values(a, b):
     try:
         if a > b:
@@ -37,24 +34,21 @@ def create_exp_values(a, b):
         print('incorrect values')
 
 
-# 2.4
 def create_x_power(a, b, exp):
     try:
         if a > b:
             print('incorrect values')
             return
-        power_array = np.power(np.linspace(a, b,100),exp)
+        power_array = np.power(np.linspace(a, b, 100), exp)
         return power_array
     except:
         print('incorrect values')
 
 
-# 2.5
 def create_diag_matrix(lst):
     return np.diag(lst)
 
 
-# 2.6
 def create_students_grades(students):
     try:
         if type(students) != str:
@@ -66,7 +60,6 @@ def create_students_grades(students):
         print('incorrect values')
 
 
-# 2.7
 def solve(A, B):
     result = None
     try:
@@ -77,7 +70,6 @@ def solve(A, B):
         print(result)
 
 
-# 2.8
 def create_alpha_eye(n, alpha):
     if type(alpha) == str:
         print('incorrect values')
@@ -86,6 +78,3 @@ def create_alpha_eye(n, alpha):
         return alpha * np.eye(n)
     else:
         print('incorrect values')
-
-
-

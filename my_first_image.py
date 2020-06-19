@@ -9,7 +9,6 @@ plt.show()
 plt.imshow(transpose_rand_matrix, cmap='gray')
 plt.show()
 
-# plt.imshow display an image.
 # cmap- map scalar data to RGBA (red, green, blue, alpha) colors, in this case to alpha=grey.
 # In the first time, the numbers increased along the lines, so the black color started from the top.
 # The second time, after transposing the matrix, the numbers increased along the columns,
