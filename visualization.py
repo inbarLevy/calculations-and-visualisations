@@ -64,6 +64,7 @@ plt.title('Student grades')
 plt.barh(student, grade, color='pink')
 plt.show()
 
+
 # 150 Random Values distributed by Poisson with lambda value of 4
 y = np.random.poisson(4, size=150)
 x = np.linspace(0, 7, 150)
